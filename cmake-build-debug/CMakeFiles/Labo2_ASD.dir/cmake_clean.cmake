@@ -1,10 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Labo2_ASD.dir/main.cpp.obj"
-  "CMakeFiles/Labo2_ASD.dir/pieces.cpp.obj"
-  "Labo2_ASD.exe"
-  "Labo2_ASD.exe.manifest"
+  "CMakeFiles/Labo2_ASD.dir/PieceJeu.cpp.o"
+  "CMakeFiles/Labo2_ASD.dir/main.cpp.o"
+  "CMakeFiles/Labo2_ASD.dir/pieces.cpp.o"
+  "Labo2_ASD"
   "Labo2_ASD.pdb"
-  "libLabo2_ASD.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -7,7 +7,10 @@
 //
 
 #include "pieces.h"
+#include <string>
+using namespace std;
 
+//                  HAUT                    DROITE                      BAS                     GAUCHE
 const Pieces PIECES = {
         { DAME_HAUT, GATEAU_DROIT, ARROSOIR_GAUCHE, FILLE_HAUT },
         { DAME_BAS, ARROSOIR_GAUCHE, FILLE_HAUT, GATEAU_DROIT },
@@ -17,5 +20,5 @@ const Pieces PIECES = {
         { DAME_BAS, GATEAU_GAUCHE, FILLE_HAUT, ARROSOIR_DROIT},
         { FILLE_BAS, ARROSOIR_GAUCHE, DAME_HAUT, GATEAU_DROIT },
         { DAME_BAS, ARROSOIR_GAUCHE, GATEAU_DROIT, FILLE_HAUT },
-        { ARROSOIR_INVERSE, DAME_HAUT, GATEAU_DROIT, FILLE_BAS },
+        { ARROSOIR_INVERSE, DAME_HAUT, GATEAU_DROIT, FILLE_BAS }
 };

@@ -8,88 +8,94 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug"/>
+				<Option working_dir="/Users/marcomaziero/Documents/2 - HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Labo2_ASD">
-				<Option output="C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug/Labo2_ASD.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug/Makefile&quot;  VERBOSE=1 Labo2_ASD"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Labo2_ASD/fast">
-				<Option output="C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug/Labo2_ASD.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug/Makefile&quot;  VERBOSE=1 Labo2_ASD/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/marcomaziero/Documents/2\ -\ HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/marcomaziero/Documents/2\ -\ HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/marcomaziero/Documents/2\ -\ HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/marcomaziero/Documents/2\ -\ HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug"/>
+				<Option working_dir="/Users/marcomaziero/Documents/2 - HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/marcomaziero/Documents/2\ -\ HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/marcomaziero/Documents/2\ -\ HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/marcomaziero/Documents/2\ -\ HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/marcomaziero/Documents/2\ -\ HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/marcomaziero/Documents/2 - HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/marcomaziero/Documents/2\ -\ HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/marcomaziero/Documents/2\ -\ HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/marcomaziero/Documents/2\ -\ HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/marcomaziero/Documents/2\ -\ HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Labo2_ASD">
+				<Option output="/Users/marcomaziero/Documents/2 - HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug/Labo2_ASD" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marcomaziero/Documents/2 - HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/marcomaziero/Documents/2\ -\ HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug/Makefile&quot;  VERBOSE=1 Labo2_ASD"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/marcomaziero/Documents/2\ -\ HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/marcomaziero/Documents/2\ -\ HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/marcomaziero/Documents/2\ -\ HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Labo2_ASD/fast">
+				<Option output="/Users/marcomaziero/Documents/2 - HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug/Labo2_ASD" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marcomaziero/Documents/2 - HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/marcomaziero/Documents/2\ -\ HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug/Makefile&quot;  VERBOSE=1 Labo2_ASD/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/marcomaziero/Documents/2\ -\ HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/marcomaziero/Documents/2\ -\ HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/marcomaziero/Documents/2\ -\ HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/main.cpp">
+		<Unit filename="/Users/marcomaziero/Documents/2 - HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/PieceJeu.cpp">
 			<Option target="Labo2_ASD"/>
 		</Unit>
-		<Unit filename="C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/pieces.cpp">
+		<Unit filename="/Users/marcomaziero/Documents/2 - HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/PieceJeu.h">
 			<Option target="Labo2_ASD"/>
 		</Unit>
-		<Unit filename="C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/pieces.h">
+		<Unit filename="/Users/marcomaziero/Documents/2 - HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/main.cpp">
 			<Option target="Labo2_ASD"/>
 		</Unit>
-		<Unit filename="C:/Users/Alessandro/Desktop/ProjetsINF2/Labo2_ASD/CMakeLists.txt">
+		<Unit filename="/Users/marcomaziero/Documents/2 - HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/pieces.cpp">
+			<Option target="Labo2_ASD"/>
+		</Unit>
+		<Unit filename="/Users/marcomaziero/Documents/2 - HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/pieces.h">
+			<Option target="Labo2_ASD"/>
+		</Unit>
+		<Unit filename="/Users/marcomaziero/Documents/2 - HEIG-VD/ASD/Labos/LAB002_PuzzleImpossible/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
