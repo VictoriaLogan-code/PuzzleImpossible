@@ -31,13 +31,13 @@ void trouverSolutions(array<array<PieceJeu, 3>, 3>& grille, vector<PieceJeu> pil
         for (int j = 0; j < 4; ++j) {
 
             // Vérifie les cases en haut et a gauche de la pièce pour confirmer que la pièce est valide a cet endroit et cette orientation
-            if (posY - 1 >= 0 && !(pile.at(i).comparerPiece(HAUT, grille.at(posY - 1).at(posX)))) {
+            if (posY != 0 && !(pile.at(i).comparerPiece(HAUT, grille.at(posY - 1).at(posX)))) {
                 // La pièce n'est pas valide, on continue avec une autre orientation
                 // Tourne la piece avant de recommencer la boucle
                 pile.at(i).tournerPiece();
                 continue;
             }
-            if (posX - 1 >= 0 && !(pile.at(i).comparerPiece(GAUCHE, grille.at(posY).at(posX - 1)))) {
+            if (posX != 0 && !(pile.at(i).comparerPiece(GAUCHE, grille.at(posY).at(posX - 1)))) {
                 // La pièce n'est pas valide, on continue avec une autre orientation
                 // Tourne la piece avant de recommencer la boucle
                 pile.at(i).tournerPiece();
@@ -51,7 +51,7 @@ void trouverSolutions(array<array<PieceJeu, 3>, 3>& grille, vector<PieceJeu> pil
 
             // Pièce valide. Vérifie que l'on est à la fin de la grille (SUCCES)
             if (posX == 2 && posY == 2) {
-                // REUSSITE ECRITURE REPONSE
+                // REUSSITE => ECRITURE REPONSE
                 // Affiche le résultat dans la console
                 for (int k = 0; k < grille.size(); ++k) {
                     for (int l = 0; l < grille.size(); ++l) {
