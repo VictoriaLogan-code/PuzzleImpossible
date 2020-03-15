@@ -94,7 +94,7 @@ void trouverSolutions(array<array<PieceJeu, 3>, 3>& grille, vector<PieceJeu> pil
 
 
 /**********************************************************************************************
- * CONTENU PRINCIPAL DU MAIN
+ * CONTENU DU MAIN
  **********************************************************************************************/
 int main() {
 
