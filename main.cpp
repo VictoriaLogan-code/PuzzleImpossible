@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <chrono>
 #include "PieceJeu.h"
 #include "pieces.h"
 using namespace std;
